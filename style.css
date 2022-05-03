@@ -1,35 +1,108 @@
-h1 {
-    
-    font-size: 26px;
+h1, h2, h3, h4, p, li {
     font-family: sans-serif;
+    color: #444;
+}
+
+h1, h2, h3 {
+    color: #1098ad;
+}
+
+h1 {
+    font-size: 26px;
     text-transform: uppercase;
     font-style: italic;
+    color: #1098ad;
+
 }
 
 h2 {
     font-size: 40px;
-    font-family: sans-serif;
 }
 
 h3 {
     font-size: 30px;
-    font-family: sans-serif;
 }
 
 h4 {
     font-size: 20px;
-    font-family: sans-serif;
     text-transform: uppercase;
     text-align: center;
 }
 
 p {
     font-size: 22px;
-    font-family: sans-serif;
     line-height: 1.5;
 }
 
 li {
-    font-family: sans-serif;
     font-size: 20px;
+}
+
+/*
+footer p {
+    font-size: 16px;
+}
+*/
+
+/*
+article header p {
+    font-style: italic;
+    font-size: 18px;
+}
+*/
+
+#author {
+    font-style: italic;
+    font-size: 18px;
+}
+
+#copyright {
+    font-size: 16px;
+}
+
+.related-author {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.related-ul {
+    list-style: none;
+}
+
+.main-header {
+    background-color: #f7f7f7;
+}
+
+aside {
+    background-color: #f7f7f7;
+    border-top: 5px solid #1098ad;
+    border-bottom: 5px solid #1098ad;
+}
+
+/*
+body {
+    background-color: orangered;
+}
+*/
+
+/*
+.first-li {
+    font-weight: bold;
+}
+*/
+
+li:first-child {
+    font-weight: bold;
+}
+
+li:last-child {
+    font-style: italic;
+}
+
+li:nth-child(even) {
+    color: red;
+}
+
+article p:last-child {
+    color: red;
 }
