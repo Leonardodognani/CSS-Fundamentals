@@ -1,4 +1,8 @@
-h1, h2, h3, h4, p, li {
+* {
+    /* boder-top: 10px solid #1098ad; */
+}
+
+body {
     font-family: sans-serif;
     color: #444;
 }
@@ -130,3 +134,33 @@ a:active {
 }
 
 /* LVHA */
+
+/* Resolving conflicts
+
+#copyright {
+    color: red;
+}
+
+.copyright {
+    color: blue;
+}
+
+.text {
+    color: yellow;
+}
+
+footer p {
+    color: green;
+}
+
+*/
+
+/*
+nav a:link, nav p {
+    font-size: 18px;
+}
+*/
+
+nav {
+    font-size: 18px;
+}
