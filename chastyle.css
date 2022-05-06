@@ -1,0 +1,45 @@
+* {
+    font-family: sans-serif;   
+}
+
+body {
+    border: solid black 4px;
+    font-weight: bold;
+    width: auto;
+}
+
+h1 {
+    background-color: lightgrey;
+    text-align: center;
+}
+
+ul {
+    list-style: square;
+    line-height: 1.5;
+}
+
+button {
+    background-color: black;
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: none;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+.freeshipping {
+    color: grey;
+}
+
+.price {
+    font-size: 28px;
+}
+
+a:hover {
+  text-decoration: none;
+}
