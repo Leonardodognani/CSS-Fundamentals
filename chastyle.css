@@ -8,14 +8,16 @@ body {
     font-weight: bold;
     width: auto;
     border: 4px solid black;
-    width: 840px;
+    width: 825px;
     margin: 15px auto;
+    position: relative;
 }
 
-
-.container {
-    display: flex;
-    gap: 40px;
+.product {
+    display: grid;
+    grid-template-columns: 250px 1fr 1fr;
+    row-gap: 0px;
+    column-gap: 30px;
 }
 
 h1::after {
@@ -28,19 +30,19 @@ h1::after {
     display: inline-block;
     padding: 5px 10px;
     position: relative;
-    top: -32px;
-    left: -660px;
+    top: -35px;
+    left: -690px;
 }
 
 
-h1 {
+header {
     background-color: lightgrey;
     text-align: center;
     text-transform: uppercase;
-    width: auto;
     margin-top: 0;
     padding: 15px;
-    font-size: 22px;
+    font-size: 16px;
+    grid-column: 1 / -1;
 }
 
 
@@ -49,6 +51,8 @@ h3 {
     font-size: 16px;
     padding-bottom: 15px;
 }
+
+
 
 .product-colors {
     display: flex;
@@ -114,8 +118,9 @@ button {
     text-transform: uppercase;
     border-top: 4px solid black;
     border-bottom: 0;
-    width: 100%;
     padding: 5px;
+    grid-column: 1 / -1;
+
 }
 
 button:hover {
